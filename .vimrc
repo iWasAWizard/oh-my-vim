@@ -35,6 +35,7 @@ set mouse=a
 set incsearch
 set hlsearch
 set splitbelow
+set backspace=indent,eol,start
 
 nmap <C-F>f <Plug>CtrlSFPrompt " (Ctrl-F + f)
 xmap <C-F>f <Plug>CtrlSFVwordPath" (Ctrl-F + F)

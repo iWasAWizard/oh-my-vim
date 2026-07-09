@@ -43,12 +43,13 @@ The setup script:
 
 1. Installs Vim and supporting packages with `apt`
 2. Copies `.vimrc` to `~/.vimrc`
-3. Copies `.vim` to `~/.vim`
-4. Builds the YouCompleteMe completer
-5. Runs `vim +PlugInstall +qall`
+3. Copies the bundled `vim-plug` loader into `~/.vim`
+4. Runs `vim +PlugInstall --sync +qall`
+5. Builds the YouCompleteMe completer
 
 ## Notes
 
 - `setup.sh` uses `sudo apt install`, so it is intended for Debian/Ubuntu-based systems.
+- The script installs the extra command-line dependencies required by the configured plugins and `YouCompleteMe`, including `git`, `ack`, `universal-ctags`, build tools, Java, Mono, Node.js/npm, and Go.
 - The current colorscheme in `.vimrc` is `nord`.
 - The configuration maps function keys such as `F2` through `F5` for plugin toggles.

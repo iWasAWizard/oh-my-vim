@@ -14,7 +14,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'matze/vim-move'
 
 Plug 'cocopon/iceberg.vim'
-Plug 'arcticicestudio/nord-vim'
+Plug 'casonadams/nord.vim'
 Plug 'Badacadabra/vim-archery'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'scheakur/vim-scheakur'
